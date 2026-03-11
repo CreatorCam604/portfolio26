@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.CompanyLogo{
+    height: 170px;
+    width: 1520px;
+    position: relative;
+}
+.slogan{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
+.Payment{
+    background-color: white;
+    max-width: 360px;
+    margin: 80px auto;
+    height: auto;
+    padding: 35px;
+    padding-top: 70px;
+    border-radius: 5px;
+    position: relative;
+}
+.h2{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    color: black;
+    font-weight: bolder;
+}
+.Label{
+    display: block;
+    color: black;
+    margin-bottom: 6px;
+}
+.input{
+    padding: 13px 0 13px 25px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.Cardgroup{
+    display: flex;
+    justify-content: space-between;
+}
+.Button{
+    margin-top: 40px;
+    background: black;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Button2{
+    background: black;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+.FooterButtons{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.B1{
+    width: 300px;
+    height: 45px;
+    margin-top: 8px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+}
+.B2{
+    width: 300px;
+    height: 45px;
+    margin-top: 8px;
+    background-color: black;
+    color: white;
+}
+.B3{
+    width: 300px;
+    height: 45px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background-color: black;
+    color: white;
+}
+.Checkout{
+    color: white;
+}
+.ViewCart{
+    color: white;
+}
+.exit{
+    color: white;
+}
+.Pay{
+    color: white;
+}
+.ContactInfo{
+    color: white;
+}
+

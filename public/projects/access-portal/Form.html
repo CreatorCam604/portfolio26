@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Form.css">
+    <title>Cyber1SolutionsAccessPortal</title>
+</head>
+<body>
+    <div style="display: grid; grid-template-columns: 1fr; justify-items: end;">
+        <img class="Logo-Img" src="Logo.png" alt="Cyber1Solutions">
+    </div>
+    <div class="MainHeading">
+        <p class="APF" style="font-size: 65px;" style="font-family: comic sans;"><u><i>ACCESS PERMISSION FORM</i></u></p><br><br>
+    </div>
+     <div class="Container">
+        <form action="">
+            <label for="Access"><i class="ChooseAccess">Select Required Access</i></label><br>
+            <select id="Access" class="AccSelect" required>
+                <option value="SharePoint Admin">SharePoint Admin Access</option>
+                <option value="Enterprise ID Admin">Enterprise ID Admin Access</option>
+                <option value="Microsoft 365 Admin">Microsoft 365 Admin</option>
+                <option value="Office 365 Admin">Office 365 Admin</option>
+                <option value="Exchange Admin">Exchange Admin</option>
+                <option value="Dynamics 365 Admin">Dynamics 365 Admin</option>
+                <option value="Power Platform Admin">Power Platform Admin</option>
+                <option value="Microsoft Teams Admin">Microsoft Teams Admin</option>
+                <option value="OneDrive Admin">OneDrive Admin</option>
+                <option value="Azure SQL Database Admin">Azure SQL Database Admin</option>
+            </select><br><br><br>
+            <label for="Reason"><i class="Reason">Reason for Required Access</i></label><br>
+            <input type="text" id="Reason" class="reason" required><br><br><br>
+            <p class="RQOA"><i>Required Duration of Access</i></p><br>
+            <label for="Duration"><i class="Duration"><b>From</b></i></label>              
+            <input type="datetime-local" class="fromtime">                                               
+            <label for="Duration1"><i class="Duration1"><b>To</b></i></label>
+            <input type="datetime-local" class="totime">
+        </form>
+
+    </div>
+    <br><br><br><br><br>
+    <button class="SubmitButton"><a href="LandingPage.html">Submit Request</a></button>  <button class="CancelButton"><a href="LandingPage.html">Cancel Request</a></button><br><br>
+    <p class="AYS"><i class="message">(User will be automatically logged out after submission, by clicking submit, User confirms required information is entered, correct, and of necessity.)</i></p><br>
+</body>
+</html>

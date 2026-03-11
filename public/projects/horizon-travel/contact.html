@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Horizon Travel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="site-nav">
+        <a href="index.html" class="nav-logo">HORIZON <span>Travel</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <div class="page-banner">
+        <span class="section-label">Get in touch</span>
+        <h1>Plan Your Trip</h1>
+        <p>Fill in the form below and our team will get back to you within 24 hours with a tailored proposal.</p>
+    </div>
+
+    <section class="section">
+        <div class="contact-layout">
+
+            <!-- Form -->
+            <form id="enquiryForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" required placeholder="e.g. Sarah">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" required placeholder="e.g. Nkosi">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="you@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+27 XX XXX XXXX">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="destination">Preferred Destination</label>
+                        <select id="destination" name="destination" required>
+                            <option value="" disabled selected>Select a destination</option>
+                            <option value="cape-town">Cape Town</option>
+                            <option value="kruger">Kruger National Park</option>
+                            <option value="garden-route">Garden Route</option>
+                            <option value="durban">Durban</option>
+                            <option value="drakensberg">Drakensberg Mountains</option>
+                            <option value="stellenbosch">Stellenbosch</option>
+                            <option value="multi">Multiple Destinations</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="travellers">Number of Travellers</label>
+                        <select id="travellers" name="travellers" required>
+                            <option value="" disabled selected>Select</option>
+                            <option value="1">1 person</option>
+                            <option value="2">2 people</option>
+                            <option value="3-4">3 - 4 people</option>
+                            <option value="5-7">5 - 7 people</option>
+                            <option value="8+">8+ people</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="departDate">Preferred Departure Date</label>
+                        <input type="date" id="departDate" name="departDate">
+                    </div>
+                    <div class="form-group">
+                        <label for="returnDate">Preferred Return Date</label>
+                        <input type="date" id="returnDate" name="returnDate">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="package">Interested Package</label>
+                    <select id="package" name="package">
+                        <option value="" disabled selected>Select a package (optional)</option>
+                        <option value="explorer">Explorer - R3,200 / person</option>
+                        <option value="adventure">Adventure - R6,800 / person</option>
+                        <option value="luxury">Luxury - R14,500 / person</option>
+                        <option value="custom">Custom / Not sure yet</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Additional Details</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us about any special requests, dietary needs, accessibility requirements, or anything else we should know."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-gold" style="width: 100%; text-align: center;">Submit Enquiry</button>
+            </form>
+
+            <!-- Contact Info Sidebar -->
+            <div class="contact-info-card">
+                <h3>Horizon Travel</h3>
+
+                <div class="info-item">
+                    <strong>Office</strong>
+                    <p>12 Bryanston Drive<br>Bryanston, Sandton<br>Johannesburg, 2191</p>
+                </div>
+
+                <div class="info-item">
+                    <strong>Phone</strong>
+                    <p>+27 (0)11 463 0000</p>
+                </div>
+
+                <div class="info-item">
+                    <strong>Email</strong>
+                    <p>bookings@horizontravel.co.za</p>
+                </div>
+
+                <div class="info-item">
+                    <strong>Office Hours</strong>
+                    <p>Monday - Friday: 08:00 - 17:00<br>
+                       Saturday: 09:00 - 13:00<br>
+                       Sunday: Closed</p>
+                </div>
+
+                <div class="info-item">
+                    <strong>Response Time</strong>
+                    <p>We aim to respond to all enquiries within 24 hours during business days.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="nav-logo">HORIZON <span>Travel</span></div>
+                <p>Curating unforgettable South African travel experiences since 2018. Based in Johannesburg, exploring everywhere.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="tours.html">Tour Packages</a></li>
+                    <li><a href="contact.html">Book a Trip</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>2025 Horizon Travel. All rights reserved.</span>
+            <span>Bryanston, Johannesburg</span>
+        </div>
+    </footer>
+
+    <script>
+        var navToggle = document.querySelector('.nav-toggle');
+        var navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', function() {
+            navLinks.classList.toggle('open');
+        });
+
+        var links = document.querySelectorAll('.nav-links a');
+        for (var i = 0; i < links.length; i++) {
+            links[i].addEventListener('click', function() {
+                navLinks.classList.remove('open');
+            });
+        }
+
+        // Form handling
+        var form = document.getElementById('enquiryForm');
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            var firstName = document.getElementById('firstName').value;
+            var destination = document.getElementById('destination');
+            var selectedDest = destination.options[destination.selectedIndex].text;
+
+            var btn = form.querySelector('button[type="submit"]');
+            btn.textContent = 'Enquiry Sent!';
+            btn.style.background = '#2e7d32';
+            btn.disabled = true;
+
+            setTimeout(function() {
+                btn.textContent = 'Submit Enquiry';
+                btn.style.background = '';
+                btn.disabled = false;
+                form.reset();
+            }, 3000);
+        });
+    </script>
+
+</body>
+</html>

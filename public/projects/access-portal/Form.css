@@ -1,0 +1,148 @@
+.body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'poppins', sans-serif;
+    background-color: lightblue;
+    align-items: center;
+    font-weight: bold;
+}
+
+#Reason{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid#ccc;
+}
+.APF{
+    margin-right: 20px;
+    text-align: right;
+}
+
+
+.Form{
+    margin: 2em 0;
+    padding: 1em 2em;
+    border-radius: 6px;
+    min-width: 200px;
+    }
+
+    
+.Logo-Img{
+            float: right;   
+        }
+
+.SubmitButton{
+    font-family: "Roboto" sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 600px;
+    width: 200px;
+    height: 40px;
+    background: rgb(8, 239, 8);
+    color: white
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+
+}
+.SubmitButton:hover, .SubmitButton:focus, .SubmitButton:active{
+    box-shadow: rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.AccSelect{
+    height: 30px;
+    width: 190px;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.reason{
+    height: 30px;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.fromtime{
+    height: 30px;
+    width: 175px;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.totime{
+    height: 30px;
+    width: 175px;
+    background-color: white;
+}
+
+.container{
+    background: lightblue;
+    border: 0.5px solid lightblue;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 17px lightblue;
+}
+
+.ChooseAccess{
+    margin-left: 15px;
+}
+
+.Reason{
+    margin-left: 15px;
+}
+
+.Duration1{
+    margin-left: 18px;
+}
+
+.Duration{
+    margin-left: 18px;
+}
+
+.RQOA{
+    padding-left: 18px;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+}
+
+.AYS{
+    padding-left: 150px;
+    font-weight: bold;
+}
+
+.CancelButton{ 
+    font-family: "Roboto" sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 600px;
+    width: 200px;
+    margin-top: 10px;
+    height: 40px;
+    background: rgb(245, 18, 2);
+    color: white
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+}
+.CancelButton:hover, .CancelButton:focus, .CancelButton:active{
+    box-shadow: rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+}

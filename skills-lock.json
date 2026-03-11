@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "ui-ux-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "computedHash": "3f7bf154d20cff5d3355b7172e5b51ea3ff8eb5123febc5e114dad23e93d9e29"
+    }
+  }
+}

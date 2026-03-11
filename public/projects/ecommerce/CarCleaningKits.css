@@ -1,0 +1,150 @@
+.body{
+    margin: 0;
+}
+.CompanyLogo{
+    height: 170px;
+    width: 1520px;
+    position: relative;
+}
+.slogan{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+.AllProducts{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    padding-left: 10px;
+    color: white;
+}
+.Dropdown{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul {
+    list-style: none;
+    background: white;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+.AllProducts{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    padding-left: 10px;
+    color: white;
+}
+.ProductName{
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+.ProductPrice{
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: white;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px white,
+    0 10px 10px white;
+    transition: 0.4s;
+    background: black;
+}
+.content:hover{
+    box-shadow: 0 3px 6px white,
+    0 3px 6px white;
+    transform: translate(0px, -8px);
+}
+.AddToCart{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.AddToCart:hover{
+    box-shadow: 0px 3px 6px white,
+    0 3px 6px white;
+    transform: translate(0px, -8px);
+}
+.FooterButtons{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.B1{
+    width: 300px;
+    height: 45px;
+    margin-top: 8px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+}
+.B2{
+    width: 300px;
+    height: 45px;
+    margin-top: 8px;
+    background-color: black;
+    color: white;
+}
+.B3{
+    width: 300px;
+    height: 45px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background-color: black;
+    color: white;
+}
+.ViewCart{
+    color: white;
+}
+.ContactInfo{
+    color: white;
+}
