@@ -33,7 +33,7 @@ export const projects: Project[] = [
     description:
       "Multi-page e-commerce storefront for automotive accessories. Features product listings, cart management, checkout flow, and order confirmation.",
     tech: ["HTML", "CSS", "JavaScript"],
-    year: "2023",
+    year: "2024",
     image: "/images/E-CommerceWebsite.png",
     category: "Frontend",
     demoPath: "/projects/ecommerce",
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     description:
       "Clean, functional calculator with standard arithmetic operations, keyboard support, and a minimal dark UI.",
     tech: ["JavaScript", "HTML", "CSS"],
-    year: "2023",
+    year: "2025",
     image: "/images/SimpleCalculator.png",
     category: "Frontend",
     demoPath: "/projects/calculator",
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     description:
       "Landing page concept for a travel agency. Responsive layout with destination highlights, booking CTA sections, and immersive hero imagery.",
     tech: ["HTML", "CSS"],
-    year: "2023",
+    year: "2025",
     image: "/images/HorizonTravel.svg",
     category: "Frontend",
     demoPath: "/projects/horizon-travel",
